@@ -11,7 +11,7 @@ The solution is $1.42$.
 Example:
 $-0.0001 \leq e^{x_1} + x_1^3 - 7 \leq 0.0001$, \
 $x_1 \in D_4$, 
-The solution is $1.42$ ,$1.4199$.
+The solution is $1.42$ , $1.4199$
 
 
 
