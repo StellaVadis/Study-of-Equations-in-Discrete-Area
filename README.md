@@ -13,6 +13,10 @@ $-0.0001 \leq e^{x_1} + x_1^3 - 7 \leq 0.0001$, \
 $x_1 \in D_4$, 
 The solution is $1.42$ , $1.4199$
 
+Example:
+$e^{x_1} + x_1^3 - 7 = 0$, \
+$x_1 \in D_4$, 
+There are no solutions.
 
 
 Example: $x_1, x_2 \in D_1$, \
