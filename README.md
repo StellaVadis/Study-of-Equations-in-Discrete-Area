@@ -4,7 +4,7 @@ For example, $0.1 \in D_1$ but $0.11 \notin D_1$
 
 # Equations that solutions are located in decimal set
 $e^{x_1} + x_1^3 - 7 = 0$, \
-$x1 \in D_2$
+$x_1 \in D_2$
 
 
 
