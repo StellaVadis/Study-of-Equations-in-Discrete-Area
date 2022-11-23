@@ -5,7 +5,7 @@ For example, $0.1 \in D_1$ but $0.11 \notin D_1$
 # Equations that solutions are located in decimal set
 $-0.0001 \leq e^{x_1} + x_1^3 - 7 \leq 0.0001$, \
 $x_1 \in D_2$
-
+The solution is $1.42$.
 
 
 
