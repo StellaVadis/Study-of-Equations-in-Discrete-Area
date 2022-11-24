@@ -9,6 +9,7 @@ $x_1 \in \mathbb{D} _2$, \
 The solution is $1.42$.
 
 Example:
+$$
 \begin{align*}
 \begin{split}
 \left \{
@@ -19,6 +20,7 @@ Example:
 \right.
 \end{split}
 \end{align*}
+$$
 The solution is $1.42$ , $1.4199$
 
 Example:
