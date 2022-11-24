@@ -8,6 +8,13 @@ $-0.0001 \leq e^{x_1} + x_1^3 - 7 \leq 0.0001$, \
 $x_1 \in \mathbb{D} _2$, \
 The solution is $1.42$.
 
+$$
+\begin{aligned}
+a &= b + c \\
+  &= d + e + f
+\end{aligned}
+$$
+
 Example:
 $$
 \begin{align*}
