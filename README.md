@@ -12,9 +12,8 @@ The solution is $1.42$.
 Example:
 
 $$
-\begin{cases}1\quad \text {if \textcolor{orange}{stoke}}  \\
-2\quad \text{if \textcolor{orange}{drug overdose};}\\
-3 \quad\text{if \textcolor{orange}{drug epileptic seizure}}
+\begin{cases}x_1 \in \mathbb{D}_4  \\
+-0.0001 \leq e^{x_1} + x_1^3 - 7 \leq 0.0001
 \end{cases} 
 $$
 
