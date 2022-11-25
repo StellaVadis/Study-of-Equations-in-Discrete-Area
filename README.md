@@ -42,7 +42,7 @@ $$
 \begin{cases}
 x_1,x_2 \in \mathbb{D} _1 \\
 x_1 =  x_2 \\
-0 \leq x_1 \leq 1
+0 \leq x_1 \leq 1 \\
 0 \leq x_2 \leq 1
 \end{cases}
 $$
