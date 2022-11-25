@@ -26,9 +26,14 @@ $x_1 \in \mathbb{D} _4$,
 There are no solutions.
 
 Example:
+
+\begin{cases}
 $x_1 \in \mathbb{D} _4$, \\
 $x_1 + x_2 = 4$, \\
 $2x_1 + 3x_2 = 6$, \\
+\end{cases}
+
+
 There are no solutions.
 
 Example:
