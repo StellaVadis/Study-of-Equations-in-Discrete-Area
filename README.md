@@ -41,7 +41,7 @@ The solutions are $(1,0),(0,1),(0.8,0.6),(0.6,0.8)$
 Example:
 
 $$
-\begin{cases}x_1 \in \mathbb{B}_12  \\
+\begin{cases}x_1 \in \mathbb{B}_{12}  \\
 -0.001 \leq e^{x_1} + x_1^3 - 7 \leq 0.001 \\
 0 \leq x_1 \leq 2
 \end{cases} 
