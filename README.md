@@ -1,4 +1,4 @@
-# Study-of-Equations-in-Decimal-Set
+# Study-of-Equations-in-Bounded-Decimal-Set
 Definition of Decimal Set: $D_l$ is defined to be all decimals to l-decimal place. \
 For example, $-0.1 \in \mathbb{D} _1$ but $0.11 \notin \mathbb{D} _1$
 
