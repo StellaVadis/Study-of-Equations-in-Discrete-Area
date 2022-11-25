@@ -29,13 +29,12 @@ Example:
 
 $$
 \begin{cases}
-x_1 \in \mathbb{D} _1 \\
+x_1, x_2 \in \mathbb{D} _1 \\
 x_1 + x_2 = 4 \\
 2x_1 + 3x_2 = 6 \\
 \end{cases}
 $$
 
-There are no solutions.
 
 Example:
 $x_1 =  x_2$, \
