@@ -47,6 +47,5 @@ $$
 \end{cases} 
 $$
 
-![Uploading N-P.png…]()
 
-Solution: 
+Solution:  $x_1 = 1.42001953125$
