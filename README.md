@@ -18,18 +18,6 @@ $$
 $$
 
 
-$$
-\begin{align*}
-\begin{split}
-\left \{
-\begin{array}{lr}
-    x_1 \in \mathbb{D}_4  \\
-    -0.0001 \leq e^{x_1} + x_1^3 - 7 \leq 0.0001
-\end{array}
-\right.
-\end{split}
-\end{align*}
-$$
 
 
 The solution is $1.42$ , $1.4199$
