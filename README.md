@@ -103,4 +103,14 @@ Then in this case, the result -1.1061 given by binary search is a solution. This
 
 # Bisection Method application in searching for one-variable-relaxed function
 If the equation is strict, then that is the same as the original method. But we cannot make sure that the exact solution can be found. \
-If that is not equation but inequality, we can find a solution by implementing bisection method to any value (rational or irrational are both acceptable), in the given interval. Then the solution must be correct.
+If that is not equation but inequality, we can find a solution by implementing bisection method to any value (rational or irrational are both acceptable), in the given interval. Then the solution can be acceptable. 
+
+$$
+\begin{cases}
+x_1 \in \mathbb{D} _4 \\
+abs(sin(x) + x) - 2 = 0\\
+-5 \leq x_1 \leq 5 \\
+-5 \leq x_2 \leq 5 \\
+\end{cases}
+$$
+
