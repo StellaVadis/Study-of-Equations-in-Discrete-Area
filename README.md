@@ -1,5 +1,5 @@
 # Study-of-Equations-in-Bounded-Decimal-Set
-In the real life problem, people may need a number that round to some decimal place, when analytical solution is not available. For example, there are no analytical solution for general six-degree equations. In this case, we may try to have numerical value by other means. But whatever a value we have, it is a 10-based rational number. Therfore, I would like to formulate the theory of solution of equations here. \
+In the real life problem, people may need a number that round to some decimal place, when analytical solution is not available. For example, there are no analytical solution for general six-degree equations. In this case, we may try to have numerical value by other means. But whatever a value we have, it is a 10-based rational number. Therfore, I would like to formulate the theory of solution of equations here. 
 
 
 Definition of Decimal Set: $D_l$ is defined to be all decimals to l-decimal place. \
