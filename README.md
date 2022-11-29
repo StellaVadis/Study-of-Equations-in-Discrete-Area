@@ -2,7 +2,7 @@
 In the real life problem, people may need a number that round to some decimal place, when analytical solution is not available. For example, there are no analytical solution for general six-degree equations. In this case, we may try to have numerical value by other means. But whatever a value we have, it is a 10-based rational number. Therfore, I would like to formulate the theory of solution of equations here. 
 
 
-Definition of Decimal Set: $D_l$ is defined to be all decimals to l-decimal place. \
+Definition of Decimal Space: $D_l$ is defined to be all decimals to $l$-decimal space. \
 For example, $-0.1 \in \mathbb{D} _1$ but $0.11 \notin \mathbb{D} _1$
 
 # Equations that solutions are located in decimal set
