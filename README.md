@@ -86,3 +86,4 @@ abs(sin(x) + x) - 2 = 0\\
 $$
 
 Indeed, there are no solution for this problem, even if you extend 4 to 5,6... and even 1000000.
+Although binary search method yields result -1.1061, this is still not a solution as abs(sin(x) + x) - 2 = 5.769838102720470e-05 $\neq$ 0.
