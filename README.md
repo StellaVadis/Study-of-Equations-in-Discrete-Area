@@ -3,7 +3,11 @@ In the real life problem, people may need a number that round to some decimal pl
 
 
 Definition of Decimal Space: $D_l$ is defined to be all decimals to $l$-decimal space. \
-For example, $-0.1 \in \mathbb{D} _1$ but $0.11 \notin \mathbb{D} _1$
+For example, $-0.1 \in \mathbb{D} _1$ but $0.11 \notin \mathbb{D} _1$  \
+
+Manifestly, if the solution space is bounded, we could have finite solutions.
+
+
 
 # Equations that solutions are located in decimal set
 Example:
