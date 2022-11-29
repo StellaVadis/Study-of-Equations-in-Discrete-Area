@@ -92,9 +92,8 @@ But if you relax and formulate another problem:
 $$
 \begin{cases}
 x_1 \in \mathbb{D} _4 \\
--0.0001 \leq abs(sin(x) + x) - 2 \leq 0.0001 \\
+-0.0001 \leq abs(sin(x_1) + x_1) - 2 \leq 0.0001 \\
 -5 \leq x_1 \leq 5 \\
--5 \leq x_2 \leq 5 \\
 \end{cases}
 $$
 
@@ -103,14 +102,17 @@ Then in this case, the result -1.1061 given by binary search is a solution. This
 
 # Bisection Method application in searching for one-variable-relaxed function
 If the equation is strict, then that is the same as the original method. But we cannot make sure that the exact solution can be found. \
-If that is not equation but inequality, we can find a solution by implementing bisection method to any value (rational or irrational are both acceptable), in the given interval. Then the solution can be acceptable. 
+If that is not equation but inequality, we can find a solution by implementing bisection method to any value (rational or irrational are both acceptable), in the given interval. Then the solution may be acceptable. 
 
 $$
 \begin{cases}
 x_1 \in \mathbb{D} _4 \\
-abs(sin(x) + x) - 2 = 0\\
+-0.0001 \leq abs(sin(x_1) + x_1) - 2 \leq 0.0001 \\
 -5 \leq x_1 \leq 5 \\
--5 \leq x_2 \leq 5 \\
 \end{cases}
 $$
 
+For example, you can choose $abs(sin(x_1) + x_1) - 2 = 0$, such that the solution will be $x_1 = -1.1061$, and $abs(sin(x) + x) - 2 = 5.769838102720470e-05$, and $-0.0001 \leq 5.769838102720470e-05 \leq 0.0001$. Therefore,  $x_1 = -1.1061$ is a solution of this equations.  \
+You can also choose $abs(sin(x_1) + x_1) - 2 = 0.00005$, such that the solution will be $x_1 = -1.1061$, and $abs(sin(x) + x) - 2 = 5.769838102720470e-05$, and $-0.0001 \leq 5.769838102720470e-05 \leq 0.0001$. Therefore,  $x_1 = -1.1061$ is a solution of this equations.  \
+But this does not guarantee that for all selected value $\lambda$ between $(-0.0001,0.0001)$ can yield a possible solution. But this can be guaranteed when $l$ in $D_l$ can be as large as you want(not infinity). Since $\lambda < 0.0001$, then the value obtained by bisection method can be closer and closer to the $\lambda$ when iteration continues. And therefore, the function value would finally drop in the interval $(-0.0001,0.0001)$. I will prove it rigorously when I have time. \
+For any $\lambda$ between $(-0.0001,0.0001)$ chosen and be applied to the bisection method can yield a possible solution when $l$ is adequately large. But since $l$ is pre-specified, some of the generated $x_1$ may not be a solution. If you really want to secure all possible values, you should use grid search method instead. 
