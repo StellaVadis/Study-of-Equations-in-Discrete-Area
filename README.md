@@ -97,3 +97,5 @@ x_1 \in \mathbb{D} _4 \\
 -5 \leq x_2 \leq 5 \\
 \end{cases}
 $$
+
+Then in this case, the result -1.1061 given by binary search is a solution. 
