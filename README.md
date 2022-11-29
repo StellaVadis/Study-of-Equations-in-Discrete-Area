@@ -16,7 +16,7 @@ $x_1 \in \mathbb{D} _2$, \
 The solution is $1.42$.
 
 
-Example:
+Example 2:
 
 $$
 \begin{cases}x_1 \in \mathbb{D}_4  \\
@@ -27,7 +27,7 @@ $$
 
 The solution is $1.42$ , $1.4199$
 
-Example:
+Example 3:
 $e^{x_1} + x_1^3 - 7 = 0$, \
 $x_1 \in \mathbb{D} _4$, 
 There are no solutions.
@@ -64,15 +64,7 @@ $x_1 \geq 0 $, \
 $x_2 \geq 0$, \
 The solutions are $(1,0),(0,1),(0.8,0.6),(0.6,0.8)$
 
-
-Example:
-
-$$
-\begin{cases}x_1 \in \mathbb{B}_{12}  \\
--0.001 \leq e^{x_1} + x_1^3 - 7 \leq 0.001 \\
-0 \leq x_1 \leq 2
-\end{cases} 
-$$
-
-
-Solution:  $x_1 = 1.42001953125$
+What conclusion can we draw from example 2 and 3? Indeed, sometimes there could be no solutions in decimal space for strictly equality. This is because the solution may be an irrational number and therefore you could never represent it as a decimal. Also, if the solution is something like 1/3, you cannot interpret it as a decimal as well. Both of the cases prompt us to relax our restriction of equalities. \\
+For example, when you are trying to find the solution of $e^x = 5$, it is impossible for you to find a decimal solution. You may argue that we can do that by binary search and some other methods, which gives the value $1.6094379124341$. But you should think carefully, whether it is a solution? It seems not, as e^1.6094379124341 = 4.999999999......, rather than exactly 5. So analytically, this is not a solution. \\
+DO NOT BE UPSET! If you insist on looking for a solution in decimal space, it must be impossible as the solution must be an irrational number. You have two choice for now: 1. Try to construct an analytical solution, based on the existing theory or new-created one. 2. Relax the equality to have solutions in decimal space. \\
+We only discuss about the second one. For example, although $e^x = 5$ has no solution, but $\epsilon_1 \leq e^x -5 \leq \epsilon_2$ could has solution. 
