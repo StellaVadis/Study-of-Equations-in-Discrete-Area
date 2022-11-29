@@ -99,3 +99,8 @@ x_1 \in \mathbb{D} _4 \\
 $$
 
 Then in this case, the result -1.1061 given by binary search is a solution. This is a good method of relaxing equations: Solve with binary search and add some relaxtion based on the searched results. To see whether you could accept it. But this does not always works, as something can not be relax on both sides. For example, the height of a person, the mass of an object. In this case, although some numerical method like binary search yields a solution. For example, it yields that the mass of a box is $-0.00000001$. Although theoretically you can relax the $x > 0$ to be $x > -0.00001$, to formulate a new problem. But in reality, this relaxation is not understandable. And therefore, your numerical method does not work.
+
+
+# Bisection Method application in searching for one-variable-relaxed function
+If the equation is strict, then that is the same as the original method. But we cannot make sure that the exact solution can be found. \
+If that is not equation but inequality, we can find a solution by implementing bisection method to any value (rational or irrational are both acceptable), in the given interval. Then the solution must be correct.
