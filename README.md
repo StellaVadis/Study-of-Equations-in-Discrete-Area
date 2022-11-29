@@ -70,4 +70,6 @@ For example, when you are trying to find the solution of $e^x = 5$, it is imposs
 
 DO NOT BE UPSET! If you insist on looking for a solution in decimal space, it must be impossible as the solution must be an irrational number. You have two choice for now: 1. Try to construct an analytical solution, based on the existing theory or new-created one. 2. Relax the equality to have solutions in decimal space. \\
 
-We only discuss about the second one. For example, although $e^x = 5$ has no solution, but $\epsilon_1 \leq e^x -5 \leq \epsilon_2$ could has solution. 
+We only discuss about the second one. For example, although $e^x = 5$ has no solution, but $\epsilon_1 \leq e^x -5 \leq \epsilon_2$ could has solution, where $\epsilon_1$ and $\epsilon_2$ are given relaxation, according to your requirement. Then you could have some solutions for new-formulated problem. \
+
+But you should be very careful here, as the solution set of original non-relaxed problem is still empty. Only the relaxed problem has solution. Essentially, the new problem and original problem are two different problems. You need to be careful here.
