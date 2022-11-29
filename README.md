@@ -73,3 +73,16 @@ DO NOT BE UPSET! If you insist on looking for a solution in decimal space, it mu
 We only discuss about the second one. For example, although $e^x = 5$ has no solution, but $\epsilon_1 \leq e^x -5 \leq \epsilon_2$ could has solution, where $\epsilon_1$ and $\epsilon_2$ are given relaxation, according to your requirement. Then you could have some solutions for new-formulated problem. \
 
 But you should be very careful here, as the solution set of original non-relaxed problem is still empty. Only the relaxed problem has solution. Essentially, the new problem and original problem are two different problems. You need to be careful here.
+
+# More application in solving transcendental equation
+
+$$
+\begin{cases}
+x_1 \in \mathbb{D} _4 \\
+abs(sin(x) + x) - 2 = 0\\
+-5 \leq x_1 \leq 5 \\
+-5 \leq x_2 \leq 5 \\
+\end{cases}
+$$
+
+Indeed, there are no solution for this problem, even if you extend 4 to 5,6... and even 1000000.
