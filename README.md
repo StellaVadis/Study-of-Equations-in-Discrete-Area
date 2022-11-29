@@ -98,4 +98,4 @@ x_1 \in \mathbb{D} _4 \\
 \end{cases}
 $$
 
-Then in this case, the result -1.1061 given by binary search is a solution. 
+Then in this case, the result -1.1061 given by binary search is a solution. This is a good method of relaxing equations: Solve with binary search and add some relaxtion based on the searched results. To see whether you could accept it. But this does not always works, as something can not be relax on both sides. For example, the height of a person, the mass of an object. In this case, although some numerical method like binary search yields a solution. For example, it yields that the mass of a box is $-0.00000001$. Although theoretically you can relax the $x > 0$ to be $x > -0.00001$, to formulate a new problem. But in reality, this relaxation is not understandable. And therefore, your numerical method does not work.
