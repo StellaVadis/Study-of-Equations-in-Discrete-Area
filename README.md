@@ -9,7 +9,7 @@ Manifestly, if the solution space is bounded, we could have finite solutions.
 
 # Definition and Symbols
 
- If r is a real number, then r{$\lfloor n \rfloor$} means truncated to n-th decimal place, r_{(n)} means round to n-th decimal place. 
+ If r is a real number, then r${$\lfloor n \rfloor$}$ means truncated to n-th decimal place, r_{(n)} means round to n-th decimal place. 
  For example, if r is a $\pi$ , then its 
  
 
