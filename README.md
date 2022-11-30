@@ -8,9 +8,9 @@ For example, $-0.1 \in \mathbb{D} _1$ but $0.11 \notin \mathbb{D} _1$  \
 Manifestly, if the solution space is bounded, we could have finite solutions.
 
 # Definition and Symbols#
-\begin{itemset}
+\begin{itemize}
 \item dwd
-\end{itemset}
+\end{itemize}
 
 # Equations that solutions are located in decimal set
 Example:
