@@ -82,7 +82,7 @@ $x_2 \geq 0$, \
 The solutions are $(1,0),(0,1),(0.8,0.6),(0.6,0.8)$
 
 Example: $x_1, x_2 \in \mathbb{D} _5$, \
-$1.5 \leq \int_{t = 0}^{t = x_1} e^{-t^2}dt \leq 2$, \
+$0.79 \leq \int_{t = 0}^{t = x_1} e^{-t^2}dt \leq 0.8$, \
 $0 \leq x_1 \leq 2 $, \
 
 
