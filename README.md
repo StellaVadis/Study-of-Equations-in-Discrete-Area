@@ -173,3 +173,8 @@ At first, we can take difference until the end. \
 $f^{(1)} = 3x^2-6x + 2$ \
 $f^{(2)} = 6x - 6$ \
 $f^{(3)} = 6 $.
+
+Then we can trace back and figure out the positivity and negativity of these difference. \
+Step 1: \
+Since $f^{(3)} = 6 >0 $, therefore, $f^{(2)}$ is increasing in the interval $[-1,3]$. \
+$f^{(2)}(-1) = -12$ and $f^{(2)}(3) = 12$.
