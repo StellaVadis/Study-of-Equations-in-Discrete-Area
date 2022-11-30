@@ -167,3 +167,7 @@ x_1 \in \mathbb{D} _{3} \\
 \end{cases}
 $$
 
+Since you do not have analytical solution for high-order polynomial, so we do not use formula for quadratic equations here. We propose a more general method. \
+Take $f(x) = x_1(x_1-1)(x_1-2) - 0$, you may use differential analysis to tackle to problem. \
+At first, we can take difference until the end. \
+$f^{(1)} = 3x^2-6x + 2$ \
