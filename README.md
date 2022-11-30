@@ -7,7 +7,10 @@ For example, $-0.1 \in \mathbb{D} _1$ but $0.11 \notin \mathbb{D} _1$  \
 
 Manifestly, if the solution space is bounded, we could have finite solutions.
 
-
+# Definition and Symbols#
+\begin{itemset}
+\item dwd
+\end{itemset}
 
 # Equations that solutions are located in decimal set
 Example:
@@ -179,3 +182,4 @@ Step 1: \
 Since $f^{(3)} = 6 >0 $, therefore, $f^{(2)}$ is increasing in the interval $[-1,3]$. \
 $f^{(2)}(-1) = -12$ and $f^{(2)}(3) = 12$. \
 Since it is monotonically increasing in the interval [-1,3], and there are altervative sign at the bound, there must be exactly one solution in $[-1,3]$. \
+We can use the bisection method or other numerical method to locate the value. Here, we can find that it is $r_0$, $1.0000000000$ or $0.99999999$ or so on. You can choose the decimal however long you want, because this is not the final descision solution of x, just a temporary value. 
