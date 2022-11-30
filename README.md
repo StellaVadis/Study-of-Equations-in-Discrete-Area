@@ -161,7 +161,7 @@ Or it can have no solutions at all.
 
 $$
 \begin{cases}
-x_1 \in \mathbb{D} _{100} \\
+x_1 \in \mathbb{D} _{3} \\
 -0.0001 \leq x_1(x_1-1)(x_1-2) \leq 0.0001 \\
 -1 \leq x_1 \leq 3 \\
 \end{cases}
