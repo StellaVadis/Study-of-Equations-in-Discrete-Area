@@ -9,7 +9,7 @@ Manifestly, if the solution space is bounded, we could have finite solutions.
 
 # Definition and Symbols
 
- If r is a real number, then r$\lfloor x \rfloor$ means truncated to n-th decimal place, r_{(n)} means round to n-th decimal place.  \
+ If r is a real number, then r_{(n)} means round to n-th decimal place.  \
  For example, if r is $\pi$ , then $r_{(4)} = 3.1416$. This gives us a clear definition when refering to some numbers. \
  Based on the given example $\pi$: \
  $r$ is defined to be symbol of this real number. \
@@ -73,6 +73,17 @@ $x_1^2 + x_2^2 = 1$, \
 $x_1 \geq 0 $, \
 $x_2 \geq 0$, \
 The solutions are $(1,0),(0,1),(0.8,0.6),(0.6,0.8)$
+
+
+Example: $x_1, x_2 \in \mathbb{D} _1$, \
+$x_1^2 + x_2^2 = 1$, \
+$x_1 \geq 0 $, \
+$x_2 \geq 0$, \
+The solutions are $(1,0),(0,1),(0.8,0.6),(0.6,0.8)$
+
+![Plane](https://user-images.githubusercontent.com/99245232/204800171-7f231216-7b0e-4dff-b344-6af3c1c6978f.jpg)
+
+
 
 What conclusion can we draw from example 2 and 3? Indeed, sometimes there could be no solutions in decimal space for strictly equality. This is because the solution may be an irrational number and therefore you could never represent it as a decimal. Also, if the solution is something like 1/3, you cannot interpret it as a decimal as well. Both of the cases prompt us to relax our restriction of equalities. \\
 
