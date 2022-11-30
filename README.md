@@ -9,8 +9,14 @@ Manifestly, if the solution space is bounded, we could have finite solutions.
 
 # Definition and Symbols
 
- If r is a real number, then r$\lfloor x \rfloor$ means truncated to n-th decimal place, r_{(n)} means round to n-th decimal place. 
- For example, if r is a $\pi$ , then its 
+ If r is a real number, then r$\lfloor x \rfloor$ means truncated to n-th decimal place, r_{(n)} means round to n-th decimal place.  \
+ For example, if r is $\pi$ , then $r_(4) = 3.1416$. This gives us a clear definition when refering to some numbers. \
+ Based on the given example $\pi$: \
+ $r$ is defined to be symbol of this real number. \
+ $r_{(4)}$ is defined to be the round symbol of this real number. \
+ $\pi$ is defined to be analytical value of this real number. \
+ $3.1416$ is defined to be the decimal rounding value of this real number. \
+ Therefore, we can say that the 4-th decimal rounding value of $r$ is $3.1416$.
  
 
 # Equations that solutions are located in decimal set
