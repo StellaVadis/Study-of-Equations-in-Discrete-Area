@@ -81,9 +81,12 @@ $x_1 \geq 0 $, \
 $x_2 \geq 0$, \
 The solutions are $(1,0),(0,1),(0.8,0.6),(0.6,0.8)$
 
-![Plane](https://user-images.githubusercontent.com/99245232/204800171-7f231216-7b0e-4dff-b344-6af3c1c6978f.jpg)
+Example: $x_1, x_2 \in \mathbb{D} _5$, \
+$1.5 \leq \int_{t = 0}^{t = x_1} e^{-t^2}dt \leq 2$, \
+$0 \leq x_1 \leq 2 $, \
 
 
+Example: 
 
 What conclusion can we draw from example 2 and 3? Indeed, sometimes there could be no solutions in decimal space for strictly equality. This is because the solution may be an irrational number and therefore you could never represent it as a decimal. Also, if the solution is something like 1/3, you cannot interpret it as a decimal as well. Both of the cases prompt us to relax our restriction of equalities. \\
 
