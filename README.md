@@ -7,13 +7,11 @@ For example, $-0.1 \in \mathbb{D} _1$ but $0.11 \notin \mathbb{D} _1$  \
 
 Manifestly, if the solution space is bounded, we could have finite solutions.
 
-# Definition and Symbols#
+# Definition and Symbols
 
-$$
-\begin{itemize}
-\item dwd
-\end{itemize}
-$$
+ If r is a real number, then r{$\lfloor n \rfloor$} means truncated to n-th decimal place, r_{(n)} means round to n-th decimal place. 
+ For example, if r is a $\pi$ , then its 
+ 
 
 # Equations that solutions are located in decimal set
 Example:
