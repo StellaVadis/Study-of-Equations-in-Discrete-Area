@@ -124,6 +124,6 @@ $$
 \begin{cases}
 x_1 \in \mathbb{D} _3 \\
 -0.0001 \leq 2^x - 3 \leq 0.0001 \\
--5 \leq x_1 \leq 5 \\
+0 \leq x_1 \leq 2 \\
 \end{cases}
 $$
