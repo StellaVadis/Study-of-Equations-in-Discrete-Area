@@ -10,7 +10,7 @@ Manifestly, if the solution space is bounded, we could have finite solutions.
 # Definition and Symbols
 
  If r is a real number, then r$\lfloor x \rfloor$ means truncated to n-th decimal place, r_{(n)} means round to n-th decimal place.  \
- For example, if r is $\pi$ , then $r_(4) = 3.1416$. This gives us a clear definition when refering to some numbers. \
+ For example, if r is $\pi$ , then $r_{(4)} = 3.1416$. This gives us a clear definition when refering to some numbers. \
  Based on the given example $\pi$: \
  $r$ is defined to be symbol of this real number. \
  $r_{(4)}$ is defined to be the round symbol of this real number. \
