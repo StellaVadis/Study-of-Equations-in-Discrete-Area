@@ -86,8 +86,8 @@ The solutions are $(1,0),(0,1),(0.8,0.6),(0.6,0.8)$
 $$
 \begin{cases}
 x_1, \in \mathbb{D} _4 \\
-0.7999 \leq \int_0^{x_1} e^{-t^2}dt \leq 0.8, \
-0 \leq x_1 \leq 2, \
+0.7999 \leq \int_0^{x_1} e^{-t^2}dt \leq 0.8 \\
+0 \leq x_1 \leq 2
 \end{cases}
 $$
 
