@@ -122,8 +122,37 @@ Example:
 
 $$
 \begin{cases}
-x_1 \in \mathbb{D} _3 \\
+x_1 \in \mathbb{D} _2 \\
 -0.0001 \leq 2^x - 3 \leq 0.0001 \\
 0 \leq x_1 \leq 2 \\
 \end{cases}
 $$
+
+Denote $f(x) = 2^x - 3$: \
+Step 0: \
+f(0) = -3 < 0 \
+f(2) = 1 > 0\
+Step 1: \
+f(1) = -1 < 0 \
+Step 2: \
+f(1.5) = 2^1.5 - 3 < 0 \
+Step 3: \
+f(1.75) = 2^1.75 - 3 > 0\
+Step 4: \
+f(1.625) = 2^1.625 -3 >0 \
+Step 5: \
+f(1.5625) = 2^1.5625 - 3 < 0\
+Step 6: \
+f(1.59375) = 2^1.59375 - 3 > 0\
+Step 7: \
+f(1.578125) = 2^1.578125 - 3 < 0\
+Step 8: \
+f(1.5859375) = 2^1.5859375 - 3 > 0\
+Step 9: \
+f(1.58203125) = 2^1.58203125 -3 <0 \
+Step 10: \
+f(1.580078125) = 2^1.580078125 -3 <0 \
+We can stop here , as the second decimal place does not change anymore. The candidate solution is located in $[1.580078125,1.5859375]$. \
+But what we need is a solution in $\mathbb{D} _2$. We may use $1.58$ as a candidate. \
+But $asb(2^1.58 - 3) = 0.010301502730123 > 0.0001$, this is not a solution. You need to test $f(x) = 2^x - 3 + \epsilon$, this may yields a solution. \
+Or it can have no solutions at all.
