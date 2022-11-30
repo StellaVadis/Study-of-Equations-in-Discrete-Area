@@ -154,5 +154,16 @@ Step 10: \
 f(1.580078125) = 2^1.580078125 -3 <0 \
 We can stop here , as the second decimal place does not change anymore. The candidate solution is located in $[1.580078125,1.5859375]$. \
 But what we need is a solution in $\mathbb{D} _2$. We may use $1.58$ as a candidate. \
-But $asb(2^1.58 - 3) = 0.010301502730123 > 0.0001$, this is not a solution. You need to test $f(x) = 2^x - 3 + \epsilon$, this may yields a solution. \
+But $abs(2^1.58 - 3) = 0.010301502730123 > 0.0001$, this is not a solution. You need to test $f(x) = 2^x - 3 + \epsilon$, this may yields a solution. \
 Or it can have no solutions at all.
+
+# Solution for polynomials in Decimal Space
+
+$$
+\begin{cases}
+x_1 \in \mathbb{D} _100 \\
+-0.0001 \leq x_1(x_1-1)(x_1-2) \leq 0.0001 \\
+-1 \leq x_1 \leq 3 \\
+\end{cases}
+$$
+
