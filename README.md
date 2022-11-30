@@ -177,4 +177,5 @@ $f^{(3)} = 6 $.
 Then we can trace back and figure out the positivity and negativity of these difference. \
 Step 1: \
 Since $f^{(3)} = 6 >0 $, therefore, $f^{(2)}$ is increasing in the interval $[-1,3]$. \
-$f^{(2)}(-1) = -12$ and $f^{(2)}(3) = 12$.
+$f^{(2)}(-1) = -12$ and $f^{(2)}(3) = 12$. \
+Since it is monotonically increasing in the interval [-1,3], and there are altervative sign at the bound, there must be exactly one solution in $[-1,3]$. \
